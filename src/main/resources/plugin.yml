@@ -1,0 +1,6 @@
+name: AutoShutdown
+version: '${version}'
+main: me.bartosz1.autoshutdown.AutoShutdown
+api-version: 1.16
+authors: [ Bartosz1 ]
+description: A plugin that shuts down your server if there are no players for specified amount of time.
