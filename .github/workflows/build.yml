@@ -20,7 +20,7 @@ jobs:
       - name: Build with Gradle
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: shadowJar --no-daemon
+          arguments: build --no-daemon
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
